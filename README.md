@@ -34,7 +34,7 @@ Python packages used are [time](https://docs.python.org/3/library/time.html), [n
 
 
 ### Credits
-I acknowledge the [Bertelsman - Udacity Schilarship](learn.udacity.com) for providing this opportunity to undertake the DataScience program.
+I acknowledge the [Bertelsman - Udacity Schilarship](https://learn.udacity.com) for providing this opportunity to undertake the DataScience program.
 
 Data obtained from [Movitate](https://motivateco.com/)
 
