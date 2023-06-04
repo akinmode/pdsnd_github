@@ -156,8 +156,7 @@ def load_data(city, month, day):
         df = df[(df['Month'] == month.title()) & (df['Day'] == day.title())]
     else:
         pass
-    exec_time = time.time() - start_time
-    print("This took ", exec_time, "seconds")
+    print(f"This took {time.time() - start_time} seconds")
     return df
     ##End of load_data
 
