@@ -30,7 +30,7 @@ The following statitics are computed:
 ### Files used
 Project uses the python programming to implement the above statistics as a command line application in the [bikeshare.py](bikeshare.py) file.
 
-Python packages used are [time](), [numpy]() and [pandas]()
+Python packages used are [time](https://docs.python.org/3/library/time.html), [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/)
 
 
 ### Credits
