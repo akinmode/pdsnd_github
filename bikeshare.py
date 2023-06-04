@@ -144,6 +144,9 @@ def load_data(city, month, day):
     df['Hour'] = df['Start Time'].dt.hour
     df['Combi Station'] = df['Start Station'] + " to " + df['End Station']
 
+    #Drop unused columns
+    df.drop(['Start Time', 'End Time'], axis=1, inplace=True)
+
     #Select data by filters
     if month != "all months" and day == "all days":
         df = df[df['Month'] == month.title()]
